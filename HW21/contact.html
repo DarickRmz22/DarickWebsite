@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Welcome to Darick's Website!</title>
+<link href="assets/css/bootstrap.css" rel="stylesheet"/>
+<link href="assets/css/bootstrap-theme.css" rel="stylesheet"/>
+<link href="assets/css/styles.css" rel="stylesheet"/>
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+      <!-- We use the fluid option here to avoid overriding the fixed width of a normal container within the narrow content columns. -->
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-6" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Welcome to Darick Ramirez's Website!</a>
+        </div>
+		  <div class="navbar-collapse collapse in" id="bs-example-navbar-collapse-6" aria-expanded="true" style="">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="hobbies.html">Hobbies</a></li>
+            <li><a href="schoolinfo.html">School Info</a></li>
+			<li><a href="dreamjobs.html">Dream Jobs</a></li>
+			<li class="active"><a href="contact.html">Contact</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div>
+    </nav>
+	<section id "home">
+		<div class"row">
+			<div class ="section-title">
+			</div>
+			<div class="container">
+				<div class="section-title">
+				<h2>Please fill out the contact form below</h2>
+				</div>
+				<div class="form-group" id="firstNameGroup">
+					<lable class="contol-lable">First Name:</lable>
+					<input type="text" class="form-control" id="firstName">
+					<span class="help-block" id="firstNameStatus"></span>
+				</div>
+				<div class="form-group" id="lastNameGroup">
+					<label class="control-label">Last Name:</label>
+					<input type="text" class="form-control" id="lastName">
+					<span class="help-block" id="lastNameStatus"></span>
+				</div>
+				<div class ="form-group" id="emailGroup">
+					<label class="control-label">Email Adress:</label>
+					<input type="text" class="form-control" id="email">
+					<span class"help-block" id="emailStatus"></span>
+				</div>
+				<div class ="form-group" id="phoneGroup">
+					<label class="control-label">Phone:</label>
+					<input type="text" class="form-control" id="phone">
+					<span class"help-block" id="phoneStatus"></span>
+				</div>
+				<div class ="form-group" id="usernameGroup">
+					<label class="control-label">Username:</label>
+					<input type="text" class="form-control" id="username">
+					<span class"help-block" id="usernameStatus"></span>
+				</div>
+				<div class ="form-group" id="passwordGroup">
+					<label class="control-label">Password:</label>
+					<input type="text" class="form-control" id="password">
+					<span class"help-block" id="passwordStatus"></span>
+				</div>
+				<div class ="form-group" id="commentsGroup">
+					<label class="control-label">Comments:</label>
+					<textarea id="comments" class="form-control"></textarea>
+					<span class="help-block" id="commentsStatus"></span>
+				</div>
+		</div>
+	</div>
+</section>
+</body>
+</html>
+<script src="assets/js/formValidation.js"></script>

@@ -1,0 +1,14 @@
+.button {
+    text-decoration: none;
+    font: bold 12px;
+    background-color: #D9D9D9;
+    color: #FFFFFF;
+    padding: 4px;
+    margin: 5px auto;
+    display: block; 
+    width: 100px; 
+    text-align: center; 
+}
+.container{
+	padding-top:75px;
+}
